@@ -41,7 +41,8 @@ public class Result {
                     "\nDescription: "+ description +
                     "\nType: "+tipos+
                     "\nWeakness: "+weakness+
-                    "\nBase Points: \n" + basePoints;
+                    "\nBase Points: \n" + basePoints+
+                    "---------------------------------------------------------";
         }
     }
 
