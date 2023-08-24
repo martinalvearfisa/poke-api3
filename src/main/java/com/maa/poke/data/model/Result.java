@@ -10,8 +10,8 @@ import java.util.List;
 @Getter
 public class Result {
     private String name;
-    private int height;
-    private int weight;
+    private float height;
+    private float weight;
     private String description;
     private List<Pokemon.Types> type;
     private List<Pokemon.Damage_relations> weakness;
@@ -35,9 +35,9 @@ public class Result {
             }
             return "Pokedex\n" +
                     "---------------------------------------------------------"+
-                    "\nNombre: '" + name + '\'' +
-                    "\nHeight: " + height + "m"+
-                    "\nWeight: " + weight + "kg"+
+                    "\nName: '" + name + '\'' +
+                    "\nHeight: " + height/10 + "m"+
+                    "\nWeight: " + weight/10 + "kg"+
                     "\nDescription: "+ description +
                     "\nType: "+tipos+
                     "\nWeakness: "+weakness+
